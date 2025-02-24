@@ -12,22 +12,22 @@ def generate_report(topic,report_sections, model_name):
         Include the following Report sections:
         {report_sections}
         Put the report in a professional style.
-        Put the report sections in a professional order For example Title page , Abstract (or Executive Summary in business reports) , Introduction , Methodology , Results and Conclusion , References and use only mention report sections .
-        title only include the topic name in the title.
-        Follow the hierarchy format for the titles for the report.
+        Put the report sections in a professional order For example Title page, Abstract (or Executive Summary in business reports), Introduction, Methodology, Results and Conclusion, and References, and use only the mentioned report sections.
+        Title only includes the topic name in the title.
+        Follow the hierarchy format for the titles of the report.
         Follow the hierarchy format for the report sections for the report.
         heading are the report sections.
-        subheading are the sub sections of a report section.
+        sub-heading are the sub sections of a report section.
         text are the body of a report section.
         Make it informative and well-structured.
         when user specify the other requirements to you like (Abstract,Methodology,References) then don't change the format that i specified, retain original format.
         Ensure the report is written in a professional style with clear, organized content and informative text for each section.
-
+        only create report if topic name is valid are fulfilled otherwise say "I can't generate a report based on your topic name" and stop creating report
 
         
         Structure the report using the following hierarchy:
 
-        Title : Represent the report Title; use a font size heading1.
+        Title: Represent the report Title; use a font size heading1.
         Headings: Represent the report sections; use a font size  heading2.
         Subheadings: Represent any subdivisions within a section; use a font size heading3.
         Body Text: Include the detailed, informative content of each section; use a font size between 12-14.
